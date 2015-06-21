@@ -1,3 +1,9 @@
+"""
+sieve.py
+Code from chapter 3 of _From Mathematics to Generic Programming_.
+Implements the sieve of Eratosthenes.
+Converted from C++ to Python by Gene Callahan.
+"""
 marks = []
 
 
