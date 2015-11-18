@@ -11,7 +11,7 @@ def mark_sieve(marks, start, factor):
     #  print("For start of %i we are using factor %i" % (start, factor))
     for i in range(start, len(marks), factor):
         #  print("And we are marking index of %i; value of %i"
-              #  % (i, 2 * i + 3))
+        #  % (i, 2 * i + 3))
         marks[i] = False
 
 
@@ -24,7 +24,7 @@ def sift(n):
     factor = 3
     while index_square < n:
         #  print("i = %i; index_square = %i; factor = %i"
-              #  % (i, index_square, factor))
+        #  % (i, index_square, factor))
         if marks[i]:  # a prime
             mark_sieve(marks, index_square, factor)
         i += 1
